@@ -55,7 +55,7 @@
 	font-family: 'Prompt', sans-serif;
 	position: absolute;
 	left: 40px;
-	top: 65vh;
+	top: 63vh;
 	color: white;
 	font-weight: 500;
 	font-size: 3vh;
@@ -65,7 +65,7 @@
 	font-family: 'Prompt', sans-serif;
 	position: absolute;
 	left: 40px;
-	top: 70vh;
+	top: 68vh;
 	width: 250px;
 	color: white;
 	line-height: 4vh;
@@ -140,6 +140,7 @@
 		width: 70vw;
 		height: 15vh;
 		left: 35px;
+		top: 85vh;
 	}
 	.m {
 		top: 50vh;
