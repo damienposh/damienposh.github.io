@@ -14,21 +14,21 @@
 	left: 35px;
 	width: 36vw;
 	height: 80vh;
-	background-color: rgba(41,171,223,.35);
+	background-color: rgba(41,171,223,.60);
 }
 
 .r2 {
 	position: absolute;
 	bottom: 0;
-	right: 35px;
+	right: 30px;
 	width: 36vw;
 	height: 80vh;
-	background-color: rgba(245,147,49,.45);
+	background-color: rgba(245,147,49,.60);
 }
 
 .h {
 	font-family:'Prompt', sans-serif;
-	font-size: 5vw;
+	font-size: 4.7vw;
 	font-weight: 900;
 	position: absolute;
 	width: 450px;
@@ -36,17 +36,18 @@
 	left: 40px;
 	color: white;
 	line-height: 8vh;
+	letter-spacing: .1vw;
 }
 
 .d {
 	font-family: 'Prompt', sans-serif;
 	position: absolute;
 	top: 43vh;
-	left: 40px;
+	left: 37px;
 	color: white;
 	line-height: 6vh;
 	font-weight: 700;
-	font-size: 3vw;
+	font-size: 2.8vw;
 	width: 280px
 }
 
@@ -67,7 +68,7 @@
 	top: 70vh;
 	width: 250px;
 	color: white;
-	line-height: 22px;
+	line-height: 4vh;
 	font-size: 2.4vh;
 }
 
@@ -89,6 +90,16 @@
 	color: white;
 	font-weight: 500;
 	font-size: 4vh;
+}
+
+.f {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	position: absolute;
+	top: 74vh;
+	right: 40px;
+	text-align: right;
+	font-size: 3vh;
 }
 
 @media (max-width: 770px){
@@ -119,7 +130,7 @@
 	.d {
 		top: 38vh;
 		font-size: 3vh;
-		width: 140px;
+		width: 150px;
 	}
 	.r {
 		width: 70vw;
@@ -145,10 +156,11 @@
 	}
 	.i {
 		top: 87vh;
-		font-size: 2.8vh;
+		font-size: 2.6vh;
 		left: 35px;
 	}
-	.g {
-		color: transparent;
+	.f{
+		text-align: left;
+		left: 35px;
 	}
 }
