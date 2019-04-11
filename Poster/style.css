@@ -1,0 +1,154 @@
+.p {
+	position: absolute;
+	background-image: url(two.one.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+}
+
+.r {
+	position: absolute;
+	top: 0px;
+	left: 35px;
+	width: 36vw;
+	height: 80vh;
+	background-color: rgba(41,171,223,.35);
+}
+
+.r2 {
+	position: absolute;
+	bottom: 0;
+	right: 35px;
+	width: 36vw;
+	height: 80vh;
+	background-color: rgba(245,147,49,.45);
+}
+
+.h {
+	font-family:'Prompt', sans-serif;
+	font-size: 5vw;
+	font-weight: 900;
+	position: absolute;
+	width: 450px;
+	top: 80px;
+	left: 40px;
+	color: white;
+	line-height: 8vh;
+}
+
+.d {
+	font-family: 'Prompt', sans-serif;
+	position: absolute;
+	top: 43vh;
+	left: 40px;
+	color: white;
+	line-height: 6vh;
+	font-weight: 700;
+	font-size: 3vw;
+	width: 280px
+}
+
+.m {
+	font-family: 'Prompt', sans-serif;
+	position: absolute;
+	left: 40px;
+	top: 65vh;
+	color: white;
+	font-weight: 500;
+	font-size: 3vh;
+}
+
+.a {
+	font-family: 'Prompt', sans-serif;
+	position: absolute;
+	left: 40px;
+	top: 70vh;
+	width: 250px;
+	color: white;
+	line-height: 22px;
+	font-size: 2.4vh;
+}
+
+.w {
+	font-family: 'Prompt', sans-serif;
+	position: absolute;
+	right: 40px;
+	top: 89vh;
+	color: white;
+	font-weight: 500;
+	font-size: 4vh;
+}
+
+.i {
+	font-family: 'Prompt', sans-serif;
+	position: absolute;
+	right: 40px;
+	top: 83vh;
+	color: white;
+	font-weight: 500;
+	font-size: 4vh;
+}
+
+@media (max-width: 770px){
+	.d {
+		top: 45vh;
+	}
+	.m {
+		font-size: 3.4vh;
+	}
+	.i {
+		font-size: 3.7vh;
+	}
+}
+
+@media (max-width: 375px) {
+	.p {
+	position: absolute;
+	background-image: url(mobile.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	}
+	.h {
+		font-size: 5.3vh;
+	}
+	.d {
+		top: 38vh;
+		font-size: 3vh;
+		width: 140px;
+	}
+	.r {
+		width: 70vw;
+		height: 85vh;
+	}
+	.r2 {
+		width: 70vw;
+		height: 15vh;
+		left: 35px;
+	}
+	.m {
+		top: 50vh;
+		font-size: 2.7vh;
+	}
+	.a {
+		top: 55vh;
+		width: 170px;
+	}
+	.w {
+		top: 92vh;
+		left: 35px;
+		font-size: 2.8vh;
+	}
+	.i {
+		top: 87vh;
+		font-size: 2.8vh;
+		left: 35px;
+	}
+	.g {
+		color: transparent;
+	}
+}
