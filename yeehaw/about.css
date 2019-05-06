@@ -1,0 +1,33 @@
+.words {
+	font-family: 'Crimson Text', serif;
+	position: absolute;
+	top: 200px;
+	width: 350px;
+	height: 400px;
+	left: 400px;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(200,200,200);
+}
+
+.h {
+	position: absolute;
+	left: 500px;
+	top: 100px;
+	font-family: 'Rye', cursive;
+	font-size: 45px;
+}
+
+.home {
+	position: absolute;
+	top: 560px;
+	left: 550px;
+	font-family: 'Rye', cursive;
+	font-size: 25px;
+}

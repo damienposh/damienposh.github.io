@@ -1,0 +1,98 @@
+.obama {
+	position: absolute;
+	left: 90px;
+	top: 70px;
+	background-image: url(obama.jpg);
+	background-size: contain;
+	width: 300px;
+	height: 500px;	
+}
+
+.harris {
+	position: absolute;
+	background-image: url(ellisharris.png);
+	background-size: contain;
+	width: 200px;
+	height: 170px;
+	left: 0px;
+	top: 450px;	
+}
+
+.solo {
+	position: absolute;
+	background-image: url(solo.jpeg);
+	background-size: contain;
+	left: 370px;
+	top: 5px;
+	width: 360px;
+	height: 480px;
+}
+
+.rhine {
+	position: absolute;
+	background-image: url(rhine.jpg);
+	background-size: contain;
+	left: 650px;
+	top: 375px;
+	width: 600px;
+	height:250px;
+}
+
+.bill {
+	position: absolute;
+	background-image: url(billp.jpg);
+	background-size: contain;
+	left: 760px;
+	top: 30px;
+	width: 179px;
+	height: 250px;
+}
+
+.bby {
+	position: absolute;
+	background-image: url(nasx.jpeg);
+	background-size: contain;
+	left: 930px;
+	top: 150px;
+	width: 250px;
+	height: 330px;
+}
+
+.bg {
+	background: rgb(252,252,252);
+	background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(0,0,0,0.9430147058823529) 83%);
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.h {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-family: 'Rye', cursive;
+	font-size: 48px;
+	width: 100px;
+	height: 60px;
+	color: black;
+}
+
+.rule {
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	height: 3px;
+	width: 45px;
+	background-color: black;
+}
+
+.r2 {
+	position: absolute;
+	top: 60px;
+	left: 67px;
+	height: 3px;
+	width: 3px;
+	background-color: black;
+}
