@@ -1,7 +1,7 @@
 .obama {
 	position: absolute;
 	left: 90px;
-	top: 70px;
+	top: 150px;
 	background-image: url(obama.jpg);
 	background-size: contain;
 	width: 300px;
@@ -15,7 +15,7 @@
 	width: 200px;
 	height: 170px;
 	left: 0px;
-	top: 450px;	
+	top: 550px;	
 }
 
 .solo {
@@ -23,7 +23,7 @@
 	background-image: url(solo.jpeg);
 	background-size: contain;
 	left: 370px;
-	top: 5px;
+	top: 55px;
 	width: 360px;
 	height: 480px;
 }
@@ -33,7 +33,7 @@
 	background-image: url(rhine.jpg);
 	background-size: contain;
 	left: 650px;
-	top: 375px;
+	top: 475px;
 	width: 600px;
 	height:250px;
 }
@@ -43,17 +43,17 @@
 	background-image: url(billp.jpg);
 	background-size: contain;
 	left: 760px;
-	top: 30px;
+	top: 100px;
 	width: 179px;
 	height: 250px;
 }
 
 .bby {
 	position: absolute;
-	background-image: url(nasx.jpeg);
+	background-image: url(nasx1.jpg);
 	background-size: contain;
 	left: 930px;
-	top: 150px;
+	top: 175px;
 	width: 250px;
 	height: 330px;
 }
@@ -94,5 +94,13 @@
 	left: 67px;
 	height: 3px;
 	width: 3px;
-	background-color: black;
+	background-color: rgb(200,200,200);
+}
+
+.sh {
+	position: absolute;
+	top: 65px;
+	left: 20px;
+	font-family: 'Crimson Text', serif;
+	font-size: 25px;
 }
